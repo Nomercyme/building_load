@@ -16,10 +16,10 @@ I'm introducing this repo as a playground to test a modern Python set-up.
 1. Create a new project directory and enter it.
 2. Run `uv venv` to create a virtual environment.
 3. Activate the environment.
-4. Install packages as needed with `uv pip install ...`.
+4. Install packages as needed with `uv pip add ...`.
 5. (Optional) Run `uv init` to set project metadata if you want.
 6. Commit `pyproject.toml` and `uv.lock` to git.
-7. Others can clone the repo, rsun `uv venv` and `uv pip sync` to get the same environment.
+7. Others can clone the repo, run `uv venv`, activate the environment and `uv sync` to get the same environment.
 
 
 ## Way of working for IEEE competition
